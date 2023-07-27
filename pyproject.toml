@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dknog-courseware"
+version = "0.1.0"
+description = "Courseware for DKNOG"
+authors = ["Mikkel Mondrup Kristensen <mikkel@tdx.dk>"]
+readme = "README.md"
+packages = [{include = "dknog_courseware"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs-material = "9.1.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
